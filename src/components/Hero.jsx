@@ -18,8 +18,3 @@ const Hero = ({
   );
 };
 export default Hero;
-
-Hero.propTypes = {
-  title: PropTypes.string,
-  subtitle: PropTypes.string,
-};

@@ -5,8 +5,3 @@ const Card = ({ children, bg = "bg-gray-100" }) => {
 };
 
 export default Card;
-
-Card.propTypes = {
-  children: PropTypes.element.isRequired,
-  bg: PropTypes.string,
-};

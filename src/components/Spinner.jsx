@@ -17,7 +17,3 @@ const Spinner = ({ loading }) => {
   );
 };
 export default Spinner;
-
-Spinner.propTypes = {
-  loading: PropTypes.boolean,
-};
